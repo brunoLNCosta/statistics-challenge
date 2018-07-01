@@ -14,7 +14,11 @@ It is about two simple APIs, one to create new transactions and another to get r
 ## Installing
 
 ```bash
-git clone https://github.com/brunoLNCosta/statistics-challenge && ./mvnw clean install && ./mvnw spring-boot:run
+mvn clean install
+```
+
+```bash
+mvn spring-boot:run
 ```
 
 ## API Documentation
