@@ -1,0 +1,28 @@
+spring:
+    application:
+        name: challenge
+        
+    # Defining the default profile.
+    profiles:
+        active: dev
+        
+# Customizing Swagger for Spring (Spring Fox) doc name.        
+springfox:
+    documentation:
+        swagger:
+            v2:
+                path: /docs.json
+
+###############################################################
+#                                                             #
+#    ,------.                                                 #
+#    |  .--. '  ,---.  ,--.  ,--.  ,--,--. ,--,--,   ,--,--.  #
+#    |  '--'.' | .-. |  \  `'  /  ' ,-.  | |      \ ' ,-.  |  #
+#    |  |\  \  ' '-' '  /  /.  \  \ '-'  | |  ||  | \ '-'  |  #
+#    `--' '--'  `---'  '--'  '--'  `--`--' `--''--'  `--`--'  #
+#                                                             #
+#    See my Framework x) - Ps. I am still building it         #
+#    https://rooting-company.github.io/roxana/                #
+#                                                             #
+###############################################################
+
